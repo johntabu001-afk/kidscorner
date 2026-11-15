@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<style>
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .board {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    padding: var(--radius-control);
+  }
+
+  .Header-1,
+  .Header-2,
+  .Header-3 {
+    color: #008000;
+  }
+
+  .image,
+  .image-2 {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  .link {
+    display: flex;
+  }
+.button:hover {
+  background-color: #b404fa;
+  opacity: 3;
+}
+  button {
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: medium;
+    background-color: #fae104;
+    display: flexbox;
+    border-radius: 15px;
+    border: none;
+    float: right;
+    cursor: pointer;
+    margin-right: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    height: auto;
+    transition: all 0.3s ease;
+    width: auto;
+    
+  }
+
+
+  .table {
+    border-collapse: collapse;
+    width: 40%;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 102, 0);
+
+  }
+
+  .span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 238, 255);
+  }
+
+  .video-player {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .table th {
+    background-color: #f2f2f2;
+    color: rgb(0, 225, 255);
+  }
+
+p{
+  font-family:'Times New Roman', Times, serif;
+  color:saddlebrown;
+  line-height: 1.6;
+  text-align: justify;
+}
+  .search-bar {
+    float: left;
+    display:flex;
+    padding: 8px;
+    border: line 6px;
+    border-color: green;
+    
+  }
+
+</style>
+
+  <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+
+  <title>Kids Corner | Home</title>
+  <link rel="icon" href="images/Colorful Kids Corner Logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="logo">
+    <img src="images/Colorful Kids Corner Logo.png" alt="" width="48" height="48">
+    <span>Kids Corner</span>
+  </div>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="About us.html">About us</a>
+    <a href="Contact Us.html">Contact us</a>
+    </nav>
+  <input type="search" placeholder="Search..." class="search-bar" aria-label="Search">
+</header>
+<main>
+  <section>
+    <h1 class="Header-1">Welcome to Our Kids heaven</h1>
+    <p>Welcome, fellow giggle-monsters, snack-snatchers, and professional goofballs!
+      You’ve officially stumbled <em class=" italic-1">the funniest, weirdest, and most hilarious corner of the
+        internet.</em>
+      Are you tired of grown-ups telling you to clean your room, eat your vegetables, or stop talking like a chipmunk?
+      Well, put on your silly pants, grab a juice box, and kick your feet up—because around here, silliness is the top
+      priority!
+    </p>
+
+    <ul>
+      <li>Jokes so bad, they'll make your cat roll its eyes!</li>
+      <li>True (and totally made-up) adventures of extreme nonsense.</li>
+      <li>Find out which slice of pizza matches your personality!</li>
+      <li>Can you try not to laugh for 30 seconds?</li>
+    </ul>
+  </section>
+
+  <section class="category-filter" aria-labelledby="category-title">
+    <h2 id="category-title">Browse stories</h2>
+    <label for="story-category">Choose a category:</label>
+    <select id="story-category">
+      <option value="all">All stories</option>
+      <option value="cars">Cars</option>
+      <option value="animals">Animals</option>
+      <option value="fashion">Fashion</option>
+    </select>
+    <p id="no-stories-message" role="status" hidden>No stories in this category yet.</p>
+    
+  </section>
+
+  <section class="story-card" data-story-category="fashion">
+    <h2 class="Header-2">Maya's Beautiful Dress</h2>
+    <img src="images/pexels-ali-123-62577311-15359602.jpg" alt="The kid" width="200" height="200" class="image">
+    <p>
+
+The morning sun was shining through the big glass windows of the shopping mall. The floor was clean and shiny. Seven-year-old Maya was very happy. She felt like a fashion model walking on a runway.
+
+Maya was wearing a beautiful light green dress with tiny flowers on it. The dress had a big collar with pretty white lace around it. It also had small white buttons in front. The dress looked lovely and old-fashioned.
+
+Her mother took out her camera and said, "Maya, please stand still so I can take your picture!"
+
+But Maya was too excited to stand still. She tilted her head back and gave a big, cheeky smile.
+
+She was also wearing her favourite white sunglasses. They were big and had a cool shape. The sunglasses made her look stylish and smart.
+
+Maya also carried a small, shiny silver handbag around her waist. The bag was very small, but she loved it because it made her outfit look special.
+
+"Are you taking my picture or sleeping, Mum?" Maya asked with a giggle.
+
+Her mother laughed as Maya showed her beautiful, wide smile.
+
+It was a wonderful day for Maya. She felt happy, beautiful and confident in her lovely dress.
+
+
+
+<h1>What We Learn</h1> 
+<ul>Always be happy and confident.</ul>
+<ul>Take good care of your clothes.</ul>
+<ul>Enjoy spending time with your family.</ul>
+<ul>Be yourself and let your personality shine!</ul>
+
+<h1>Questions?</h1>
+<ul>How old was Maya?</ul>
+<ul>Where did Maya go with her mother?</ul>
+<ul>What colour was Maya's dress?</ul>
+<ul>What colour were her sunglasses?</ul>
+
+    </p>
+  </section>
+
+  <section class="story-card" data-story-category="fashion">
+    <h2 class="Header-3">Jasmine Show</h2>
+    <img src="images/pexels-anastasia-shuraeva-8084242.jpg" alt="The eye" width="200" height="200" class="image-2">
+    <p class="Indent">The morning sun shone through the big glass windows of the shopping mall. Its warm light made the shiny floor look golden. But for seven-year-old Leo, the shopping mall was not just a place for shopping. It was his own fashion runway.
+
+He stood in the middle of the walkway and posed like a famous model. Leo was wearing a beautiful light green shirt with tiny pictures of leaves and flowers. The shirt had a big collar with a neat white line around it. It also had small buttons down the front. His shirt looked simple, smart and stylish. Leo was very proud of his lovely outfit.
+
+
+      <br>
+      <br>
+    <table class="Table">
+      <span class="Span">
+        <caption> The Jasmine Show </caption>
+      </span>
+      <br>
+
+      <th>Dress</th>
+      <th>Colour</th>
+      <th>Price</th>
+      <th>Size</th>
+
+      <tr>
+        <td>Eye glasses</td>
+        <td>Orange</td>
+        <td>Ksh 25000</td>
+        <td>7-8 years</td>
+      </tr>
+      <tr>
+        <td>Khaki short</td>
+        <td>Blue</td>
+        <td>Ksh 20000</td>
+        <td>7-8 years</td>
+      </tr>
+      <tr>
+        <td>Brouse</td>
+        <td>Checked</td>
+        <td>Ksh 15000</td>
+        <td>7-8 years</td>
+      </tr>
+      <tr>
+        <td>Shoes</td>
+        <td>Yellow</td>
+        <td>Ksh 10000</td>
+        <td>7-8 years</td>
+      </tr>
+    </table>
+
+
+    <br>
+    <br>
+    his mom called out, adjusting her camera lens.<strong>"Leo, hold still for just one second!"</strong>
+    Instead of holding still, Leo tilted his head back with a cheeky, unstoppable grin. Perched on his nose was the
+    ultimate statement piece: a pair of thick, rectangular white sunglasses with retro retro-cool vibes. They added an
+    unmistakable edge, contrasting perfectly with the soft tones of his shirt. Slung cross-body over his shoulder was
+    a
+    sleek metallic silver mini-bag—not quite big enough for a juice box, but far too stylish to leave at home.
+
+    "Are you taking the picture or taking a nap, Mom?" Leo giggled, tilting his head further and flashing a wide,
+    toothy
+    smile.
+    </p>
+  </section>
+
+<section class="story-card" data-story-category="cars">
+    <h2 class="Header-2">James and His Favourite Car</h2>
+    <img src="images/Car 1.jfif" alt="The kid" width="200" height="200" class="image">
+    <p>
+
+James was a seven-year-old boy who lived in Nakuru, Kenya. He loved cars very much. Every morning, he watched cars, buses and matatus passing along the road near his home.
+
+His favourite car was a big red Toyota Land Cruiser. He loved it because it was strong, beautiful and could travel on rough roads. His father told him that many people in Kenya use Land Cruisers to travel to villages, farms and national parks.
+
+One Saturday, James and his father visited a car show in Nairobi. James was very excited when he saw a shiny red Land Cruiser. He ran towards it and shouted, "Wow! That is my dream car!"
+
+The car had big black tyres, bright headlights and comfortable seats. James imagined driving it through the beautiful landscapes of Kenya. He imagined visiting Maasai Mara, seeing elephants in Amboseli and enjoying the beautiful views of Mount Kenya.
+
+His father smiled and said, "James, if you work hard, study well and become a responsible person, you can achieve your dreams."
+
+James promised to work hard at school. He wanted to become an engineer and design wonderful cars one day.
+
+That evening, James drew a picture of his favourite red Land Cruiser and placed it beside his bed.
+
+
+
+<h1>What we Learn</h1> 
+
+Always have a dream.
+
+Work hard to achieve your goals.
+
+Listen to your parents and teachers.
+
+Believe in yourself!
+
+<h1>Questions</h1>
+
+What was James's favourite car?
+
+Which town did James live in?
+
+Where did James and his father go on Saturday?
+
+Name two places James wanted to visit.
+
+What did James want to become when he grew up?
+    </p>
+  </section>
+
+<section class="story-card" data-story-category="animals">
+    <h2 class="Header-2">Michael and His Pet Dog</h2>
+    <img src="images/dog 2.jfif" alt="The kid" width="200" height="200" class="image">
+    <p>
+
+
+
+Michael was an eight-year-old boy who lived in Kericho, Kenya. He loved animals very much. His favourite animal was a dog. One day, his father bought him a small brown puppy as a birthday present. Michael was very happy!
+
+He named the puppy Bingo. Bingo had soft brown fur, a long tail and two bright eyes. He loved running around the garden and playing with a small red ball.
+
+Every morning, Michael gave Bingo fresh water and food before going to school. When he returned home, Bingo would run towards him, wagging his tail happily.
+
+One Saturday morning, Michael took Bingo for a walk with his father. They walked along a beautiful path near their home. They saw green tea farms, colourful flowers and many birds singing in the trees.
+
+Suddenly, they heard a small kitten crying near a bush. The kitten looked hungry and scared. Michael gently picked it up and took it home. He gave it some milk and a warm place to rest.
+
+Bingo looked at the kitten and wagged his tail. Soon, they became good friends.
+
+Michael was very proud of his dog. He learned that animals need love, food, water and care.
+
+From that day, Michael promised to be kind to all animals.
+
+
+<h1>What We Learn</h1> 
+
+
+<ul>Love and care for animals.</ul>
+
+<ul>Always give pets clean water and food.</ul>
+<ul>Be kind and helpful to others.</ul>
+<ul>Treat animals gently and with respect.</ul>
+
+
+
+<h1>Questions</h1>
+<ul>Where did Michael live?</ul>
+<ul>What was the name of his pet dog?</ul>
+<ul>What colour was Bingo?</ul>
+<ul>What did Michael find near the bush?</ul>
+
+  </section>
+
+
+
+</main>
+<footer>
+  <nav>
+    <ul class="Link">
+      <li><a href="https://www.youtube.com/">Facebook</a></li>
+      <li><a href="https://www.youtube.com/">Tiktok</a></li>
+      <li><a href="https://www.youtube.com/">Youtube</a></li>
+    </ul>
+  </nav>
+  <p>@ 2026 Tales of Love Published</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
